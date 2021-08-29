@@ -6,7 +6,7 @@ const Login: React.FC = () => {
     <div className="LoginMain">
         <div>
             <form>
-
+            
             </form>
         </div>
         
