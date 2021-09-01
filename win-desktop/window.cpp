@@ -55,6 +55,11 @@ class Window{
             );
             ShowWindow(m_hWnd, SW_SHOW);
 
+            LPPAINTSTRUCT lpPaint = {};
+            lpPaint.hdc = //yemp
+            HDC hdc =BeginPaint(m_hWnd, &lpPaint);
+            Rectangle(hdc,50,50,100,100);
+
         }
         Window(const Window&) = delete;
         Window& operator=(const Window&) = delete;
